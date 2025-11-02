@@ -28,9 +28,8 @@
         </ul>
         <h2>Contacto</h2>
         <p>
-            📧 <strong>Email:</strong> camiloperez@example.com <br>
-            💼 <strong>GitHub:</strong> <a href="https://github.com/tuusuario" target="_blank">github.com/tuusuario</a> <br>
-            🔗 <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/tuusuario" target="_blank">linkedin.com/in/tuusuario</a>
+            📧 <strong>Email:</strong> abccamilo15@gmail.com <br>
+            💼 <strong>GitHub:</strong> <a href="https://github.com/camilo-perez1" target="_blank">github.com/camilo-perez1</a> <br>
         </p>
     </section>
     <footer>
