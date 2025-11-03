@@ -1,94 +1,137 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
 <body>
-    <section>
-        <h1>Bienvenido a mi Perfil</h1>
-        <p>
-            Soy <strong>Camilo Perez</strong>, un desarrollador apasionado por la
-            tecnología y la innovación. En este espacio comparto mis proyectos,
-            experiencias y conocimientos en el mundo del desarrollo de software.
-        </p>
-        <h2>Sobre Mí</h2>
-        <p>
-            Tengo experiencia en diversas tecnologías y lenguajes de programación,
-            y siempre estoy en busca de nuevos desafíos que me permitan crecer
-            profesionalmente. Me encanta colaborar en proyectos que tengan un impacto
-            positivo en la sociedad.
-        </p>
-        <h2>Habilidades</h2>
-        <ul>
-            <li>Desarrollo de aplicaciones con C#, SQL Server</li>
-            <li>Diseño web con HTML, CSS y JavaScript</li>
-            <li>Gestión de bases de datos y análisis de sistemas</li>
-        </ul>
-        <h2>Contacto</h2>
-        <p>
-            📧 <strong>Email:</strong> abccamilo15@gmail.com <br>
-            💼 <strong>GitHub:</strong> <a href="https://github.com/camilo-perez1" target="_blank">github.com/camilo-perez1</a> <br>
-        </p>
-    </section>
-    <footer>
-        <p>© 2025 Camilo Perez — Desarrollador de Software</p>
-    </footer>
-    <!-- ESTILOS -->
+    <div class="page">
+        <header class="header">
+            <h1 class="repo-title">¡Bienvenido a mi perfil!</h1>
+            <div class="header-meta">
+                <span>Soy <strong>Camilo Perez</strong>, desarrollador apasionado por C# </span>
+            </div>
+    </header>
+    <main class="content-grid">
+            <section class="left">
+                <div class="welcome-card">
+                    <p>
+                        Soy <strong>Camilo Perez</strong>, un desarrollador apasionado por la tecnología y la innovación.
+                        Aquí comparto mis proyectos, ejemplos de código y herramientas que uso en mis trabajos académicos y personales.
+                    </p>
+                    <div class="lang-box">
+                        <h3>Most Used Languages</h3>
+                        <ul class="lang-list">
+                            <li>C# — 82.24%</li>
+                            <li>HTML — 6.2%</li>
+                            <li>TS/SQL — 5.5%</li>
+                        </ul>
+                    </div>
+                    <div class="socials">
+                        <h3>Mis redes sociales</h3>
+                        <div class="social-row">
+                            <div class="social-card">
+                                <div class="social-title">GitHub</div>
+                                <div class="social-body">
+                                    <a href="https://github.com/camilo-perez1" target="_blank">github.com/camilo-perez1</a>
+                                    <small>Repositorios · Contribuciones</small>
+                                </div>
+                            </div>
+                            <div class="social-card">
+                                <div class="social-title">Correo</div>
+                                <div class="social-body">
+                                    <span>abccamilo15@gmail.com</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="projects">
+                        <h3>Mis Proyectos</h3>
+                        <div class="project-row">
+                            <div class="project-pill"><a href="#" target="_blank">Farmacia Mía</a></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <aside class="right">
+                <div class="logo-image-card">
+                    <img src="https://tse3.mm.bing.net/th/id/OIP.KuhDJrQLa7FO0ntYef0W9gHaEc?rs=1&pid=ImgDetMain&o=7&rm=3.png" alt="Logo C#" class="logo-img" />
+                </div>
+                <div class="mini-info">
+                    <p><strong>Camilo Perez</strong></p>
+                    <p class="muted">Desarrollador · Estudiante</p>
+                    <p class="meta-links">
+                        <a href="mailto:abccamilo15@gmail.com">abccamilo15@gmail.com</a><br>
+                        <a href="https://github.com/camilo-perez1" target="_blank">github.com/camilo-perez1</a>
+                    </p>
+                </div>
+            </aside>
+        </main>
+        <footer class="footer">
+            <div>© 2025 Camilo Perez</div>
+        </footer>
+    </div>
     <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: #f5f7fa;
-            color: #222;
-            line-height: 1.6;
-            padding: 40px;
+            margin: 0;
+            padding: 24px;
+            font-family: Arial, Helvetica, sans-serif;
+            background: #0f1724;
+            color: #e6eef6;
         }
-        section {
-            max-width: 800px;
-            margin: auto;
-            background-color: #fff;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        .page {
+            max-width: 1100px;
+            margin: 0 auto;
         }
-        h1 {
-            text-align: center;
-            color: #0077b6;
-            margin-bottom: 20px;
+        /* Header */
+        .header {
+            border: 1px solid rgba(255,255,255,0.04);
+            padding: 18px;
+            border-radius: 8px;
         }
-        h2 {
-            color: #023e8a;
-            margin-top: 30px;
-            margin-bottom: 10px;
-            border-left: 4px solid #0077b6;
-            padding-left: 8px;
+        .repo-title {
+            margin: 0;
+            font-size: 20px;
+            color: #60a5fa;
         }
-        p, ul {
-            margin-bottom: 20px;
-            font-size: 1.05rem;
+        .header-meta {
+            display: flex;
+            justify-content: space-between;
+            gap: 12px;
+            margin-top: 8px;
+            align-items: center;
+            color: #9aa4b2;
         }
-        ul {
-            list-style-type: square;
-            padding-left: 25px;
+        /* Layout */
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 18px;
+            margin-top: 18px;
         }
-        a {
-            color: #0077b6;
-            text-decoration: none;
+        /* Cards */
+        .welcome-card,
+        .profile-image-card,
+        .logo-image-card {
+            background: #0b1220;
+            padding: 18px;
+            border-radius: 8px;
+            border: 1px solid rgba(255,255,255,0.03);
         }
-        a:hover {
-            text-decoration: underline;
-        }
-        footer {
-            text-align: center;
-            margin-top: 40px;
-            color: #555;
-            font-size: 0.9rem;
+        a { color: #60a5fa; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        .lang-list,
+        .project-row { list-style: none; margin: 8px 0; padding: 0; color: #9aa4b2; }
+        .social-row { display: flex; gap: 10px; }
+        .social-card { flex: 1; background: #111827; padding: 10px; border-radius: 8px; }
+    .profile-img { width: 100%; max-width: 260px; border-radius: 6px; display: block; margin: 0 auto; }
+    .logo-img { width: 100%; max-width: 180px; border-radius: 6px; display: block; margin: 0 auto; }
+        .footer { margin-top: 16px; text-align: center; color: #9aa4b2; font-size: 0.9rem; }
+        @media (max-width: 920px) {
+            .content-grid { grid-template-columns: 1fr; }
+            .right { order: -1; }
+            .profile-img { max-width: 140px; }
+            .social-row { flex-direction: column; }
         }
     </style>
 </body>
